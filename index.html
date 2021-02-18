@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>GK Institute</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/6f661f3874.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+ 
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="./index.html"><img src="./images/images1/logo.jpg" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin: -2% 0 0 80%;">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -44,19 +44,60 @@
                 class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="./lectures.html"><i class="fas fa-video"></i> Recorded Lectures <span
+            <a class="nav-link" href="./lectures.html"><i class="fas fa-video"></i> Video Gallery <span
                 class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="./contact.html"><i class="fas fa-mug-hot"></i> Contact Us <span
                 class="sr-only">(current)</span></a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./contact.html"><i class="fas fa-sign-in-alt"></i> Login <span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./contact.html"><i class="fas fa-user-plus"></i> SignUp <span
+                class="sr-only">(current)</span></a>
+          </li>
+
 
         </ul>
 
       </div>
     </nav>
   </div>
+  <button class="btn" id="call">
+    <a href="tel:+91-8264696002" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button"><i class="fas fa-phone"></i> Call Us</p></a>
+  </button>
+
+
+  <div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Welcome to the Gk institute</h3>
+                <button type="button" class = "btn btn-danger" data-dismiss="modal" style="margin-left: 80%;margin-top: -1%;">Close</button>
+            </div>
+            <hr>
+            <div class="modal-body">
+				<h4 style="text-align: center;">Grab limited time offers on live classes</h4>
+                <div class="container">
+                  <div class="row">
+                      <div class="col-sm-6">
+                          <img src="./images/images1/unnamed.png" alt="" style="width: 100%;">
+                      </div>
+                      <div class="col-sm-6">
+                        <img src="./images/images1/unnamed.png" alt="" style="width: 100%;">
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+</div>
+
+
   <div class="container-fluid" id="main">
     <div class="row">
       <div class="col-lg-6" id="main1">
@@ -136,6 +177,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+        $("#myModal").modal('show');
+      });
+    </script>
 </body>
 
 </html>

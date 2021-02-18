@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>GK Institute</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
@@ -19,7 +19,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="./index.html"><img src="./images/images1/logo.jpg" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin: -2% 0 0 80%;">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -42,19 +42,31 @@
                 class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="./lectures.html"><i class="fas fa-video"></i> Recorded Lectures <span
+            <a class="nav-link" href="./lectures.html"><i class="fas fa-video"></i> Video Gallery <span
                 class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="./contact.html"><i class="fas fa-mug-hot"></i> Contact Us <span
                 class="sr-only">(current)</span></a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./contact.html"><i class="fas fa-sign-in-alt"></i> Login <span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./contact.html"><i class="fas fa-user-plus"></i> SignUp <span
+                class="sr-only">(current)</span></a>
+          </li>
+
 
         </ul>
 
       </div>
     </nav>
   </div>
+  <button class="btn" id="call">
+    <a href="tel:+91-8264696002" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button"><i class="fas fa-phone"></i> Call Us</p></a>
+  </button>
   <div class="container" id="course">
     <h3 id="decor">Our Courses</h3>
     <hr>

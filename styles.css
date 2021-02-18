@@ -1,12 +1,11 @@
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    
 }
 #nav{
   
-    font-size: 1.4rem;
-    font-weight: 550;
+    font-size: 1rem;
+    font-weight:  bold;
     
     
     padding: 1% 4% 1% 4%;
@@ -26,8 +25,8 @@ nav{
 
 }
 #nav li{
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: #fff;
 }
 #nav a:hover{
@@ -96,7 +95,7 @@ nav{
     width: 100%;
     bottom: 0;
     padding: 1%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 #two{
     background-color: #91091e;
@@ -159,4 +158,23 @@ hr{
 }
 .youtube-frames{
     border: 6px solid #91091e;
+}
+button{
+    color: #fff;
+    background-color: red;
+    position: fixed;
+    border: 2px solid black;
+    margin-top: 15%;
+    margin-left: 0vw;
+    z-index: 100;
+}
+button:hover{
+    background-color: black;
+    color: red;
+}
+#call a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
