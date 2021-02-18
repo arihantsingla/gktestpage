@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+.highlight {background:#fff}
 #nav{
   
     font-size: 1rem;
@@ -159,6 +160,7 @@ hr{
 .youtube-frames{
     border: 6px solid #91091e;
 }
+
 button{
     color: #fff;
     background-color: red;
@@ -177,4 +179,7 @@ button:hover{
     color: #fff;
     font-size: 1.3rem;
     font-weight: bold;
+}
+.navbar-toggler{
+    position: relative;
 }
