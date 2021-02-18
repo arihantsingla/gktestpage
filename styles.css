@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#nav{
+  
+    font-size: 1.4rem;
+    font-weight: 550;
+    
+    
+    padding: 1% 4% 1% 4%;
+    background-color: #fff;
+ 
+}
+nav{
+    border: 3px solid #91091e; 
+ 
+}
+#nav img{
+    height: 70px;
+}
+#nav ul{
+    margin-left: 5%;
+    background-color: #fff;
+
+}
+#nav li{
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: #fff;
+}
+#nav a:hover{
+    color: #fff;
+    background-color: #91091e;   
+}
+#nav li:hover{
+    color: #fff;
+    background-color: #91091e;   
+}
+#main{
+    width: fit-content;
+    background-color: #91091e;
+}
+#main img{
+    height: 500px;
+    width: fit-content;
+    padding: 1% 4% 1% 4%;
+}
+#main1{
+    
+    padding: 1%;
+}
+.carousel-control-prev-icon{
+    background-color: #91091e;
+    height: 100px;
+    width: 30px;
+    size: 2rem;
+}
+.carousel-control-next-icon{
+    background-color: #91091e;
+    height: 100px;
+    width: 30px;
+    size: 2rem;
+}
+#main2{
+    padding: 0% 3% 0% 3%;
+}
+#main3 p{
+    text-align: justify;
+}
+#main3 h3{
+    text-align: center;
+    color: #91091e;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+#main3{
+   padding:1% 4% 1% 4%;
+   margin: 4% 1.5% 1.5% 1.5%;
+   color:black;
+   font-size: 1.3rem;
+   background-color: #fff;
+}
+#features{
+    padding: 2% 4% 2% 4%;   
+    
+}
+#features img{
+    width: 100%;
+}
+#footer{
+    text-align: center;
+    color: #fff;
+    background-color:#91091e;
+    width: 100%;
+    bottom: 0;
+    padding: 1%;
+    font-size: 1.5rem;
+}
+#two{
+    background-color: #91091e;
+    padding: 2%;
+}
+
+#about{
+    text-align: center;
+    font-size: 1.2rem;
+}
+#about img{
+    width: 100%;
+}
+hr{
+    border: 2px solid black;
+    width: 100%;
+}
+#a2{
+    background-color:#91091e ;
+    padding: 2%;
+    color: #fff;
+}
+#course{
+    text-align: center;
+}
+#first{
+    padding: 2%;
+    margin-top: 1%;
+    font-size: 1.3rem;
+    text-align: left;
+}
+#course img{
+    width: 100%;
+}
+#decor{
+    font-weight: bold;
+    color: #91091e;
+    text-align: center;
+}
+#incr{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+.decor2{
+    color: #fff;
+    background-color: #91091e;
+}
+#pic img{
+    width: 100%;
+    padding: 1%;
+    border: 2px solid #91091e;
+    margin: 1%;
+}
+.demo-heading{
+    color: #91091e;
+}
+.lecture-img{
+   margin-left: 7%;
+   margin-top: 9%;
+}
+.youtube-frames{
+    border: 6px solid #91091e;
+}
