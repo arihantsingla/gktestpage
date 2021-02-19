@@ -158,12 +158,12 @@ hr{
    margin-top: 9%;
 }
 .youtube-frames{
-    border: 6px solid #91091e;
+    border: 6px solid rgb(145, 9, 30);
 }
 
 button{
     color: #fff;
-    background-color: red;
+    background-color: #4b0510;
     position: fixed;
     border: 2px solid black;
     margin-top: 15%;
@@ -172,7 +172,7 @@ button{
 }
 button:hover{
     background-color: black;
-    color: red;
+    color:#4b0510;
 }
 #call a{
     text-decoration: none;
@@ -182,4 +182,88 @@ button:hover{
 }
 .navbar-toggler{
     position: relative;
+}
+
+.review-section #demo {
+    background: linear-gradient(112deg, #ffffff 50%, #91091e 50%);
+    max-width: 900px;
+    margin: auto
+}
+
+.review-section .carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem
+}
+
+@media(max-width:767px) {
+    .review-section .carousel-caption {
+        height: 30vh;
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+}
+
+.review-section .carousel-caption img {
+   width:95%;
+}
+
+@media(max-width:767px) {
+    .review-section .carousel-caption img {
+        width: 70%;
+        height: 20vh;
+        
+    }
+}
+
+.review-section #image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+    .review-section #image-caption {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+.review-section .review {
+    background-color:#4b0510;
+    padding: 1.4rem
+}
+
+@media(max-width:767px) {
+    .review-section i {
+        padding: 0.8rem
+    }
+}
+
+.review-section .carousel-control-prev {
+    justify-content: flex-start
+}
+
+.review-section .carousel-control-next {
+    justify-content: flex-end
+}
+
+.review-section .carousel-control-prev,
+.review-section .carousel-control-next {
+    transition: none;
+    opacity: unset
 }
